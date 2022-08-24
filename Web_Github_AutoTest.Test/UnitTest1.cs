@@ -16,7 +16,7 @@ namespace Web_Github_AutoTest.Test
         public void FailureTest()
         {
             var hoge = 1;
-            Assert.Equal(1, hoge);
+            Assert.Equal(0, hoge);
         }
     }
 }
