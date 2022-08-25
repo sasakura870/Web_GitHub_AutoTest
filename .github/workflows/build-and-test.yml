@@ -1,7 +1,6 @@
 name: build and test
 
-on:
-  push:
+on: [push]
 
 env:
   DOTNET_VERSION: '6.0.301' # The .NET SDK version to use
