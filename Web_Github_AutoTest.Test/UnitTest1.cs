@@ -11,5 +11,12 @@ namespace Web_Github_AutoTest.Test
             var hoge = arg * arg;
             Assert.Equal(Math.Pow(arg, 2), hoge);
         }
+
+        [Fact]
+        public void FailureTest()
+        {
+            var hoge = 1;
+            Assert.Equal(0, hoge);
+        }
     }
 }
